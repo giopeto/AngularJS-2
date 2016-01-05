@@ -96,7 +96,7 @@ export class AppComponent implements OnInit {
 	getHeroes() {
 		console.log ("getHeroes app component");
 		//this.heroes = this._heroService.getHeroes();  //Without promise from heroes service
-		//this._heroService.getHeroes().then(promiseHeroes => this.heroes = promiseHeroes); // getHeroesNormally
+		//this._heroService.getHeroes().then(promiseHeroes => this.heroes = promiseHeroes); //getHeroesNormally
 		this._heroService.getHeroesSlowly().then(promiseHeroes => this.heroes = promiseHeroes); //getHeroesSlowly
 	}
 
