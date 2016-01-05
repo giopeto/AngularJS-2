@@ -1,3 +1,4 @@
 *.ts
 *.map
-*js
+*.js
+node_modules/
