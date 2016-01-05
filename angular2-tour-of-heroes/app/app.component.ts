@@ -89,7 +89,7 @@ export class AppComponent implements OnInit {
 	constructor(private _heroService: HeroService) { }
 
 	onSelect(hero: Hero) {
-		console.log ("onSelect app component: ", hero);
+		console.log ("onSelect app component: ",hero);
 		this.selectedHero = hero;
 	}
 
